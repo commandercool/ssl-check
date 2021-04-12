@@ -5,7 +5,7 @@ public class SSLCheck {
 
     public static void main(String[] args) {
         if (args.length != 2) {
-            System.out.println("Usage: java -jar SSLPing.jar <host> <port>");
+            System.out.println("Usage: java -cp . SSLCheck <host> <port>");
             System.exit(1);
         }
 
