@@ -11,8 +11,8 @@ wget https://github.com/commandercool/ssl-check/raw/master/SSLCheck.class
 java -cp . SSLCheck google.com 443
 ```
 
-Java 11 and higher:
+Java 11 and higher (requires JDK):
 ```
 wget https://raw.githubusercontent.com/commandercool/ssl-check/master/src/SSLCheck.java
-java SSLCheck google.com 443
+java SSLCheck.java google.com 443
 ```
