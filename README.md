@@ -17,4 +17,4 @@ wget https://raw.githubusercontent.com/commandercool/ssl-check/master/src/SSLChe
 java SSLCheck.java google.com 443
 ```
 
-If you don't have (can't install `wget`) replace it with `curl -O`.
+If you don't have (can't install) `wget` replace it with `curl -O`.
