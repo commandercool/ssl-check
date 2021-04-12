@@ -1,7 +1,7 @@
 # SSL Check is a tool to check keystore/truststore settings of Java
 
 The program tries to perform SSL Handshake with specified host over specified port.
-In case keystore/truststore settings are correct - you'll receive "Successfully connected" message.
+In case keystore/truststore settings are correct - you'll receive **"Successfully connected"** message.
 
 ## Usage:
 
