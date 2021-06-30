@@ -7,7 +7,8 @@ In case keystore/truststore settings are correct - you'll receive **"Successfull
 
 Prior Java 11:
 ```
-wget https://github.com/commandercool/ssl-check/raw/master/SSLCheck.class
+wget https://raw.githubusercontent.com/commandercool/ssl-check/master/src/SSLCheck.java
+javac SSLCheck.java
 java -cp . SSLCheck google.com 443
 ```
 
